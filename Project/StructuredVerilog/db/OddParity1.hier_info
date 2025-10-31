@@ -1,0 +1,44 @@
+|OddParity1
+A3 => g13.DATAIN
+A3 => g8.IN3
+A3 => g7.IN3
+A3 => g6.IN3
+A3 => g5.IN3
+A3 => g4.IN3
+A3 => g3.IN3
+A3 => g2.IN3
+A3 => g1.IN3
+A2 => g12.DATAIN
+A2 => g8.IN2
+A2 => g7.IN2
+A2 => g4.IN2
+A2 => g3.IN2
+A2 => g6.IN2
+A2 => g5.IN2
+A2 => g2.IN2
+A2 => g1.IN2
+A1 => g11.DATAIN
+A1 => g8.IN1
+A1 => g6.IN1
+A1 => g4.IN1
+A1 => g2.IN1
+A1 => g7.IN1
+A1 => g5.IN1
+A1 => g3.IN1
+A1 => g1.IN1
+A0 => g10.DATAIN
+A0 => g8.IN0
+A0 => g5.IN0
+A0 => g3.IN0
+A0 => g2.IN0
+A0 => g7.IN0
+A0 => g6.IN0
+A0 => g4.IN0
+A0 => g1.IN0
+O3 <= g13.DB_MAX_OUTPUT_PORT_TYPE
+O2 <= g12.DB_MAX_OUTPUT_PORT_TYPE
+O1 <= g11.DB_MAX_OUTPUT_PORT_TYPE
+O0 <= g10.DB_MAX_OUTPUT_PORT_TYPE
+P <= g9.DB_MAX_OUTPUT_PORT_TYPE
+
+

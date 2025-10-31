@@ -1,0 +1,36 @@
+|OddParity2
+A3 => always0~15.IN0
+A3 => always0~10.IN0
+A3 => O3.DATAIN
+A3 => always0~5.IN0
+A3 => always0~0.IN0
+A2 => always0~15.IN1
+A2 => always0~5.IN1
+A2 => O2.DATAIN
+A2 => always0~10.IN1
+A2 => always0~0.IN1
+A1 => always0~18.IN0
+A1 => always0~13.IN0
+A1 => always0~8.IN0
+A1 => always0~3.IN0
+A1 => O1.DATAIN
+A1 => always0~16.IN0
+A1 => always0~11.IN0
+A1 => always0~6.IN0
+A1 => always0~1.IN0
+A0 => always0~19.IN0
+A0 => always0~12.IN0
+A0 => always0~7.IN0
+A0 => always0~4.IN0
+A0 => O0.DATAIN
+A0 => always0~17.IN0
+A0 => always0~14.IN0
+A0 => always0~9.IN0
+A0 => always0~2.IN0
+O3 <= A3.DB_MAX_OUTPUT_PORT_TYPE
+O2 <= A2.DB_MAX_OUTPUT_PORT_TYPE
+O1 <= A1.DB_MAX_OUTPUT_PORT_TYPE
+O0 <= A0.DB_MAX_OUTPUT_PORT_TYPE
+P <= P~6.DB_MAX_OUTPUT_PORT_TYPE
+
+
