@@ -54,4 +54,4 @@ In **odd parity**, the parity bit is chosen so that the **total number of 1s** (
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/odd-parity-converter.git
+   git clone https://github.com/MdIsmailBhuiyan/CSE345-DLD.git
